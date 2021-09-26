@@ -1,0 +1,2 @@
+STEP1 : first of all I should make an input after that I know my input shuld be between 0 and 9 , so if the input is not between 0 and 9 I asked again for input.
+STEP2 : create a loop for # after that creat a loop for (" ")

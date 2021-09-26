@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>Trivia!</title>
+
+        <script>
+            // TODO: Add code to check answers to questions
+            function myFunction() {
+                // to say correct fo the correct answear
+                document.getElementById("test").innerHTML = "Correct!";
+                document.getElementById("test").style.background='green';
+            }
+            // say the incorrects answears
+            function myFunction2(){
+                document.getElementById("#btnd").style.background='red';
+                document.getElementById("#btnd").innerHTML = "Incorrect";
+
+            }
+            function myFunction1(){
+                document.getElementById("#btn").style.background='red';
+                document.getElementById("#btn").innerHTML = "Incorrect";
+            }
+
+
+                function myFunction4(){
+                let x =
+                document.getElementById("salam").value;
+                if (x == 'sci-fi')
+                {
+                 document.getElementById("#btnd3").innerHTML = "Correct!";
+                document.getElementById("#btnd3").style.background='green';
+                }
+                else
+                {
+                    document.getElementById("#btnd3").style.background='red';
+                    document.getElementById("#btnd3").innerHTML = "Incorrect";
+                    
+                }
+                }
+        </script>
+
+    </head>
+    <body>
+
+        <div class="jumbotron">
+            <h1>Trivia!</h1>
+        </div>
+
+        <div class="container">
+
+            <div class="section">
+                <h2>Part 1: Multiple Choice </h2>
+                <hr>
+
+                <!-- TODO: Add multiple choice question here -->
+                <h3>
+                    What is the highest mountain in the world?
+                </h3>
+                <div id="quiz"></div>
+                <button id="#btn" onclick="myFunction1()">Mount Kangchenjunga</button>
+                <button id="test" onclick="myFunction()">Mount Everest</button>
+                <button id="#btnd" onclick="myFunction2()">Mount K2</button>
+            </div>
+
+            <div class="section">
+                <h2>Part 2: Free Response</h2>
+                 <!-- TODO: Add free response question here -->
+                <hr>
+                <h3>
+                    what is the genre of spiderman movie?
+                </h3>
+                <input type="text" placeholder="hint: It's sci-fi" id="salam" >
+                <button id="#btnd3" onclick="myFunction4()">Check Answear</button>
+
+
+            </div>
+
+        </div>
+    </body>
+</html>
