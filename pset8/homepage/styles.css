@@ -1,0 +1,42 @@
+body{
+    background: linear-gradient(to bottom,#0bbafb,#4285ec);
+    font-family: Arial, Helvetica, sans-serif;
+    background-image:url("fade.png");
+    background-repeat: no-repeat;
+    background-size: 1500px
+}
+p{
+    font-size:25px;
+    text-align:center;
+    background-color:#196dec;
+    color: #dcf9fa
+}
+h1{
+    font-size:19px;
+    color: #dcf9fa
+}
+button, input[type="submit"] {
+  background: none repeat scroll 0 0 #66A3D2;
+  border-color: #FFFFFF #327CB5 #327CB5 #FFFFFF;
+  border-radius: 10px 10px 10px 10px;
+  border-style: solid;
+  border-width: 1px;
+  box-shadow: 1px 1px 3px #333333;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 5px;
+  text-align: center;
+  text-shadow: 1px 1px 1px #000000;
+}
+img{
+    height:100px;
+
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height:100px;
+}
+
