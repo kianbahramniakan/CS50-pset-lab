@@ -1,0 +1,11 @@
+sort1 uses: Bubble sort
+
+How do you know?: with ./time that show me the time and I undrestand the sort1 is bubble , because the bubble sort is the slowest sort between marge and selection sort.
+
+sort2 uses: Merge Sort
+
+How do you know?: with ./time that show me the time and I undrestand the sort1 is marge sort , because the marge sort is faster than bubble and selection sort.
+
+sort3 uses: Selection sort
+
+How do you know?: with ./time that show me the time and I undrestand the sort1 is selection sort , because the selection sort is faster than bubble and slower than marge sort.
